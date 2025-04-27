@@ -1,0 +1,231 @@
+@import url(utils.css);
+@import url(button.css);
+   
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+footer .center{
+    margin: 2rem 4rem;
+}
+
+footer .footer-link ul{
+    display: flex;
+}
+
+footer .footer-link i{
+    padding: .5rem;
+    font-size: 2rem;
+}
+/* Footer End */
+
+/* Header */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .header-l a h3{
+    padding: 1rem;
+}
+
+
+header .header-r ul{
+    display: flex;
+    margin: 1rem 1rem 0 1rem;
+    align-self: center;
+    justify-content: center;
+}
+
+header .header-r ul li{
+    padding: 1rem;
+    transition:all .2s ease-out;
+
+}
+header .header-r ul li:hover{
+    scale: 1.1;
+}
+
+header .header-r ul li:active{
+    scale: .93;
+}
+
+/* Header End */
+
+
+/* Container */
+.container .content1{
+    margin: 4rem;
+    text-align: center;
+}
+
+.container .content1 h1{
+    margin: 4rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container .content2{
+    padding: 10rem;
+    text-align: center;
+}
+
+.container .content3{
+    padding:  2rem 0 10rem 0;
+    text-align: center;
+}
+
+.container .content2 ul li{
+    margin: 2rem 3rem;
+    font-size: 3rem;
+    width: 40%; /* Paragraf genişliği */
+    margin: 1rem auto;
+}
+
+.container .content2 ul li p{
+    padding: 2rem 0 0 0;
+    display: inline-block;
+}
+
+.container .content2 ul li p:hover{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    scale: 1.2;
+
+    border-bottom: 1px solid black;
+    transition:all .2s ease-out;
+}
+
+.container .content2 ul li p:active{
+    scale: 1;
+}
+
+/* Content3 */
+.container .content3{
+    margin: 2rem;
+    text-align: center;
+}
+
+.container .content3 h2{
+    margin-bottom: 5rem;
+}
+
+.container .content3 .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 2rem;
+}   
+
+.container .content3 .cards .card-item{
+    margin: 2rem;
+}
+
+.container .content3 .cards .card-item a:hover{
+    /* background-color: rgb(225, 225, 225); */
+    cursor: pointer;
+
+}
+
+/* Container End */
+
+
+/* Collaps Ayarlari */
+.collaps-portfolio{
+    display: none;
+}
+
+.collaps-portfolio p{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+.collaps-portfolio .cards-noGrid{
+    display: block;
+    text-align: left;
+}
+
+.collaps-portfolio .cards-noGrid .card-item:hover{
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.collaps-portfolio .cards-noGrid .card-item .card-item__flex {
+    display: flex;
+    margin: 1rem;
+}
+.collaps-portfolio .cards-noGrid .card-item .card-item__flex .card-item__flex-l{
+    padding: 1rem;
+}
+/* Collaps Ayarlari End */
+
+
+/* About Me */
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:space-between;
+}
+
+.contact ul li{
+    padding: 1rem;
+    font-size:2.5rem ;
+}
+
+.contact ul li:hover{
+    transition: .3s;
+    scale: 1.2;
+}
+/* About Me End */
+
+
+/* Blog */
+
+.content4{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.content4 .category ul {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4 .category ul li{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content4 .blog-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content4 .blog-cards .card-item{
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    margin: 0 2rem 2rem 2rem;
+}
+.content4 .blog-cards .card-item:hover{
+    transition: .2s ease-in-out;
+    scale: 1.05;
+
+}
+
+
+
+
+/* Blog End */
